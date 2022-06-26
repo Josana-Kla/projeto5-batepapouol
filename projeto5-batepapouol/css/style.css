@@ -14,6 +14,7 @@ body {
 @media(max-width: 614px) {
     body {
         visibility: visible;
+        background-color: #F3F3F3;
     }
 
     header, footer {
@@ -46,11 +47,9 @@ body {
         width: 45px;
     }
 
-    main {
-        background-color: #F3F3F3;
-        height: 100vh;
-
+    main {       
         margin: 80px 0;
+        padding: 26px 0 0 0;
 
         color: black;
     }
@@ -67,6 +66,18 @@ body {
         border-radius: 2px;
 
         font-size: 14px;
+    }
+
+    .white-chat {
+        background-color: #FFFFFF;
+    }
+
+    .red-chat {
+        background-color: #FFDEDE;
+    }
+
+    .grey-chat {
+        background-color: #DCDCDC;
     }
 
     .chat-line i {
