@@ -102,14 +102,16 @@ body {
 
         max-width: 540px;
         max-height: 40px;
-
-        font-size: 18px;
     }
 
-    .write-a-message textarea{
+    .write-a-message textarea {
         height: 23px;
         width: 100%;
         
+        border: none;
+        font-style: italic;
+        font-size: 18px;
+
         resize: none;
     }
 
