@@ -20,7 +20,7 @@ let writeAMessage = document.querySelector('.message').value;
 function returningAllFunctions() {
     nameUser();
     gettingAllMessages();
-    // returningAllParticipants();
+    returningAllParticipants();
     // userStatus();
     postANewMessage();
 }
@@ -70,7 +70,6 @@ function gettingAllMessages() {
 
 
 function catchDates(answerDates) {
-    console.log(answerDates.data);
     answers = answerDates.data;
     messagesTypes();
     setInterval(messagesTypes, 3000);
@@ -135,9 +134,9 @@ function catchNameParticipant(nameParticipant) {
 }
 
 function renderNames() {
-    chat.innerHTML = '';
+    let listContacts = document.querySelector('.contacts');
     for(let i = 0; i < namesWhoEnter.length; i++) {
-        chat.innerHTML += `
+        listContacts.innerHTML += `
             <div class="chat-line grey-chat">
                 <span>
                     <i>(HORA)</i>
@@ -146,6 +145,7 @@ function renderNames() {
             </div>
         `
     }
+    console.log(listContacts)
 }
 
 //--------------------------------------------------------------------------------------------//

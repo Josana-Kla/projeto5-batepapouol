@@ -122,6 +122,56 @@ body {
         margin-left: 3px;
     }
 
+    .login-window {
+        background-color: #FFFFFF;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .login-window img {
+        height: 92px;
+        width: 130px;
+
+        margin-bottom: 94px;
+    }
+
+    .login-window input {
+        height: 54px;
+        width: 261px;
+
+        border: 1px solid #D7D7D7;
+        border-radius: 4px;
+
+        color: #AEAEAE;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .login-window button {
+        margin-top: 15px;
+        background-color: #E7E7E7;
+        border-radius: 9px;
+        border: none;
+
+        color: #696969;
+        font-size: 18px;
+
+        height: 45px;
+        width: 109px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
 }
 
 

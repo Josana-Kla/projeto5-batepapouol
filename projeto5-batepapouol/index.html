@@ -16,45 +16,7 @@
     <ion-icon name="people"></ion-icon>
   </header>
 
-  <main>
-
-    <div class="chat-line">
-      <span>
-        <i>(HORA)</i>
-        <strong>João</strong> entra na sala...
-      </span>
-    </div>
-
-    <div class="chat-line">
-      <span>
-        <i>(HORA)</i> 
-        <strong>João</strong> para <strong>Todos</strong>: 
-      </span>
-    </div>
-
-    <div class="chat-line">
-      <span>
-        <i>(HORA)</i> 
-        <strong>Maria</strong> para <strong>João</strong>: 
-      </span>
-    </div>
- 
-    <div class="chat-line">
-      <span>
-        <i>(HORA)</i> 
-        <strong>João</strong> reservadamente para <strong>Maria</strong>: 
-      </span>
-    </div>
-
-    <div class="chat-line">
-      <span>
-        <i>(HORA)</i> 
-        <strong>Maria</strong> sai da sala...
-      </span>
-    </div>
-    
-    <img src="./assets/dog-test.jpeg" alt="">
-    <img src="./assets/dog-test.jpeg" alt="">
+  <main> 
 
   </main>
 
@@ -67,44 +29,50 @@
     <ion-icon onclick="postANewMessage()" name="paper-plane-outline"></ion-icon>
   </footer>
 
-  <!--
-    <div>
-      <img src="./assets/logo.png" alt="logo uol">
-      <form action="#">
-        <input type="text">
-      </form>
-      <button>Entrar</button>
-    </div>
-  -->
+  <!-- TELA DE LOGIN -->
+  
+  <div class="login-window hidden">
+    <img src="./assets/logo.png" alt="logo uol">
+    
+    <input placeholder="Digite seu nome" type="text">
+    
+    <button>Entrar</button>
+  </div>
+  
 
   <!-- 
+   MENU LATERAL
     <aside>
-      <h2>Escolha um contato para enviar mensagem:</h2>
+
       <div>
-        <span>
-          <ion-icon name="people"></ion-icon>
-          <h3>Todos</h3>
-          <ion-icon name="checkmark-outline"></ion-icon>
-        </span>
-        <span>
-          <ion-icon name="person-circle"></ion-icon>
-          <h3>João</h3>
-          <ion-icon name="checkmark-outline"></ion-icon>
-        </span>
-        <span>
-          <ion-icon name="person-circle"></ion-icon>
-          <h3>Maria</h3>
-          <ion-icon name="checkmark-outline"></ion-icon>
-        </span>
+        <h2>Escolha um contato para enviar mensagem:</h2>
+        <div class="contacts">
+          <span>
+            <ion-icon name="people"></ion-icon>
+            <h3>Todos</h3>
+            <ion-icon name="checkmark-outline"></ion-icon>
+          </span>
+          <span>
+            <ion-icon name="person-circle"></ion-icon>
+            <h3>João</h3>
+            <ion-icon name="checkmark-outline"></ion-icon>
+          </span>
+          <span>
+            <ion-icon name="person-circle"></ion-icon>
+            <h3>Maria</h3>
+            <ion-icon name="checkmark-outline"></ion-icon>
+          </span>
+        </div>
+        <h2>Escolha a visibilidade:</h2>
+        <div>
+          <ion-icon name="lock-open">Público</ion-icon>
+          <ion-icon name="lock-closed">Reservadamente</ion-icon>
+        </div>
       </div>
-      <h2>Escolha a visibilidade:</h2>
-      <div>
-        <ion-icon name="lock-open">Público</ion-icon>
-        <ion-icon name="lock-closed">Reservadamente</ion-icon>
-      </div>
+
     </aside>
   -->
-
+  
 
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
